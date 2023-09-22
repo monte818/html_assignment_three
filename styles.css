@@ -1,0 +1,147 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+} 
+body{
+    margin: 0;
+    padding: 0px;
+    background-color: rgb(196, 196, 196);
+}
+.navbar-brand{
+    color: white;
+    flex-direction: column;
+
+    
+}
+.navbar-items{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+.nav-link{
+    color: white;
+}
+#Navbar{
+    background-color: rgba(34, 34, 34, 0.8);
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+#home{
+    position: relative;
+
+}
+
+#bg_photo{
+    width: 100%;
+    height: auto;
+    margin-top: -50px;
+}
+#main_title{
+    color: White;
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    font-size: 100px;
+    
+}
+
+.grid-container{
+    display: flex;
+    flex-direction: row;
+    grid-gap: 10px;
+    margin: 0 auto;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: 50px;
+    
+}
+#lion_photo{
+    height: 160px;
+    width: 260px;
+}
+.box{
+    max-width: 100%;
+    border: 5px solid white;
+    margin-bottom: 35px;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+.grid-image{
+    object-fit: cover;
+    max-width: 260px;
+    height: 160px;
+    float: left;
+    margin-right: 40px;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 1000px;
+}
+.grid-text{
+    display: flex;
+    position: relative;
+    width: 50%;
+}
+.price{
+    color: blueviolet;
+    font-weight: bold;
+}
+.show-title{
+    font-weight: bold;
+}
+.price-link{
+    text-decoration: none;
+}
+.foot-container{
+    height: 500px;
+}
+ #map{
+    max-width: 450x;
+    height: 250px;
+    margin-left: 90px;
+    margin-top: 70px;
+    float: left;
+} 
+
+.footer-box{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 1fr 1fr;
+    width: 1000px;
+}
+.foot-box{
+    margin-top: 30px;
+    max-width: 230px;
+    padding: 10px;
+    margin-left: 60px;
+}
+.show-text{
+    margin-top: 1em;
+    font-size: 14px;
+}
+.info-text{
+    margin-top: 1em;
+    font-size: 12px;
+}
+.btn{
+    margin-top: 10px;
+    background-color: rgb(113, 109, 162);
+    margin-right: 40px;
+    border: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: white;
+    height: 50px;
+    width: 100px; 
+}
+.button-container{
+    top: 0px;
+    float: right;
+
+} 
